@@ -21,4 +21,4 @@ npm run dev
 ISC
 
 ## Integrantes
-- Eduardo Fernando Flores Dominguez
+- Eduardo Fernando Flores Dominguez ##UWU##

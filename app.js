@@ -2,6 +2,7 @@ const envs            = require('./config/envs');
 const MongoDataSource = require('./config/mongo');
 const Server          = require('./server/server');
 
+// archivo principal
 (async () => {
   try {
     if (envs.DB_ENGINE === 'nosql') {

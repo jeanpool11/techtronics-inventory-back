@@ -19,3 +19,6 @@ npm run dev
 ## License
 
 ISC
+
+## Integrantes
+- Eduardo Fernando Flores Dominguez

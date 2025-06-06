@@ -23,3 +23,4 @@ ISC
 ## Integrantes
 - Eduardo Fernando Flores Dominguez ##UWU##
 - Angie Mina Ishuiza
+- Steven W Gonzales

@@ -1,26 +1,23 @@
 {
-  "name": "techtronics-inventory-back",
+  "name": "inventory-control-system-back",
   "version": "1.0.0",
-  "description": "TechTronics Inventory Control System - Backend",
-  "homepage": "https://github.com/jeanpool11/techtronics-inventory-back#readme",
-  "bugs": {
-    "url": "https://github.com/jeanpool11/techtronics-inventory-back/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jeanpool11/techtronics-inventory-back.git"
-  },
+  "description": "",
   "license": "ISC",
   "author": "Jean Pool Gutierrez",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node --watch ./app.js",
-    "dev": "cross-env NODE_ENV=development node --watch ./app.js",
-    "init-db": "node scripts/initDb.js"
+    "start": "node --watch ./app.js",
+    "dev": "node --watch ./app.js",
+    "init-db": "node scripts/initDb.js",
+    "test": "mocha --require test/setup.js"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "cross-env": "^7.0.3",
+    "mocha": "^11.6.0",
+    "supertest": "^7.1.1"
   },
   "dependencies": {
     "@slack/webhook": "^7.0.5",
